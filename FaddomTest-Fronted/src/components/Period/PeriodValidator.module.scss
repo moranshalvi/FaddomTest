@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .inputRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .tip {
+    color: gray;
+    font-size: 0.9rem;
+  }
+  
+  .info {
+    color: gray;
+  }
+  
+  .errorContainer {
+    min-height: 1.5rem; /* שומר על גובה קבוע למיקום השגיאה */
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+  }
+  

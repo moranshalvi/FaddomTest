@@ -1,0 +1,18 @@
+.Container {
+    display: flex; 
+    flex-direction: column;
+    gap: 6px;
+
+    .inputBtn{
+        display: flex; 
+        flex-direction: row;
+        gap: 5px
+    }
+
+    .error {
+        color: red;
+        font-weight: bold;
+        margin-top: 8px; 
+    }
+  }
+  
